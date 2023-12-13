@@ -1,0 +1,78 @@
+body{
+    background-color:#f4e6d5;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#cabecalho
+{
+    width: 50%;
+    background-color: #FFD1DA;
+    display: center;
+    margin-left: 23vw;
+    border-radius: 1vw;
+}
+
+#tar1
+{
+    margin-bottom: 2vw;
+}
+
+#filtros1
+{
+    display: inline;
+}
+
+input[type='checkbox'] 
+{
+    accent-color: #7743DB;
+}
+
+input[type=text]
+{
+    background-color: rgb(220, 217, 217);
+    border-radius: 1vw;
+    border: 0.22vw solid rgba(0, 0, 0, 0.501);
+    box-shadow: 1px 1px 4px #333333;
+}
+
+input[type=text]:hover,textarea:hover
+{
+    background-color: white;
+}
+
+#checkcomp
+{
+    display: inline-flex;
+    width: 38%;
+    margin-left: 10.7vw;
+}
+
+#checkpend
+{
+    display: inline-flex;
+    width: 38%;
+}
+
+#divtarefa
+{ 
+    display:inline-block;
+    width: 30%;
+    border-radius: 1vw;
+    background-color: #fdf7f0;
+    margin-right: 4.4vw;
+    margin-top: 0.5vw;
+}
+
+#divtarefa:hover
+{
+    background-color: #C3ACD0;
+    transform: scale(1.5vw);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+
+#tabletarefa
+{
+    margin-left: auto;
+    margin-right: auto;
+}

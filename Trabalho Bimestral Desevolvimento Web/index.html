@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planner</title>
+    <link rel="stylesheet" href="css/estilizacao.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <div id="cabecalho">
+       <div id="tarefanova"> <!--Essa div é referente ao "cabeçalho" que é basicamente a parte de adicionar tarefa nova-->
+        <h1>Bom dia! Adicione uma nova tarefa:</h1>
+        <input type="text" id="tar1">
+        <button onclick=adicionar()>+</button>
+       </div>
+    </div>
+    <!--As divs seguintes são referentes às duas colunas de tarefas completadas e pendentes-->
+    <div id="divtarefa">
+            <h1>Tarefas</h1>
+            <br><br>
+            <table id="tabletarefa"></table>  
+    </div>
+</body>
+</html> 
